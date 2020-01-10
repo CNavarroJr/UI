@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fish Friends 2</title>
+
+  <link href="css/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container wrapper">
+
+    <div class="dropdown">
+
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <!-- <a href="">Sign Up</a> -->
+        <a href="https://fish-friends.nicholasgallucci4.now.sh/">Log In</a>
+      </div>
+
+    </div>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
+
+
+    <header class="main-header about-header">
+      <img class="logo-img phone-view" src="img/FishFriendsLogo_Horizontal_bw.png" alt="Logo Image">
+      <img class="logo-img phone-view1" src="img/FishFriendsLogo_bw.png" alt="Logo Image">
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <!-- <a href="#">Sign Up</a> -->
+        <a href="https://fish-friends.nicholasgallucci4.now.sh/">Log In</a>
+      </nav>
+    </header>
+
+    <div class="about-section">
+    
+        <img class="dev-image" src="img/web-dev.jpg" alt="About Images">
+      
+      <div class="aboutus">
+        <h1>About Us</h1>
+        <p>We are a dedicated full stack development team, trying to bring you the best experience and give you the best advise for your fishing needs.</p>
+      </div>
+
+    </div>
+
+    <section class="about-devs">
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+        
+        <div>
+        <h1>Isla McNeill</h1>
+        <p>PROJECT LEAD</p><br>
+        <p>Dedicated project lead determined to deliver a great website. Oversight over all projects and making sure everything was done in a timely manner.</p>
+        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+      </div>
+
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+
+        <div>
+        <h1>Christopher Lien</h1>
+        <p>WEB REACT II</p><br>
+        <p>Determined web react developer focused on giving you a great user experience. Providing a functioning log in and sign up page that allow you to easialy access your account.</p>
+        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+      </div>
+      
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+
+        <div>
+        <h1>Nicholas Gallucci</h1>
+        <p>WEB REACT II</p><br>
+        <p>Determined web react developer focused on giving you a great user experience. Providing a functioning log in and sign up page that allows you to easily access your account.</p>
+        <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="about-devs devs2">
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+
+        <div>
+          <h1>Simon Nolla</h1>
+          <p>WEB REACT I</p><br>
+          <p>Determined web react developer focused on giving you a great user experience. Providing a functioning log in and sign up page that allows you to easialy access your account.</p>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+
+      </div>
+
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+  
+        <div>
+          <h1>Austin Breaux</h1>
+          <p>BACKEND DEVELOPER</p><br>
+          <p>Determined backend developer focused on giving you a great user experience. Providing the code that connects the web to a database, manages user connections, and powers the web application itself.</p>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="about-devs devs2">
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+
+        <div>
+          <h1>Mark Goldhardt</h1>
+          <p>WEB UI DEVELOPER</p><br>
+          <p>Determined web UI developer focused on giving you a great user experience. Providing a functioning and easy to use marketing and about page.</p>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+
+      </div>
+
+      <div class="devs">
+        <img class="dev-image" src="img/web-dev.jpg" alt="Dev Images">
+  
+        <div>
+          <h1>Carlos Navarro</h1>
+          <p>WEB UI DEVELOPER</p><br>
+          <p>Determined web UI developer focused on giving you a great user experience. Providing a functioning and easy to use marketing and about page.</p>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="https://fish-friends-pebqdz1cw.now.sh/">Log In</a>
+        <!-- <a href="#">Sign Up</a>
+        <a href="#">Log In</a> -->
+      </nav>
+    </footer>
+    
+
+  </div>
+
+</body>
+
+</html>

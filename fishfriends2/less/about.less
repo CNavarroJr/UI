@@ -1,0 +1,144 @@
+.wrapper {
+  height: 2150px;
+
+  
+  p {
+    font-size: 1.2vw;
+    margin-top: 5px;
+
+    @media @desktop3 {
+      font-size: 1.3vw;
+    }
+
+    @media @desktop2 {
+      font-size: 1.4vw;
+    }
+
+    @media @desktop1 {
+      font-size: 2vw;
+    }
+
+    @media @tablet {
+      font-size: 2vw;
+    }
+    
+    @media @phone1 {
+      font-size: 2.2vw;
+    }
+
+    @media @phone {
+      font-size: 2.8vw;
+    }
+  }
+
+  .about-header {
+    width: 90%;
+  }
+
+  .about-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+
+    @media @phone1 {
+      width: 90%;
+    }
+
+    @media @phone {
+      width: 95%;
+    }
+
+    h1 {
+      font-size: 5vw;
+
+      @media @phone {
+        font-size: 7vw;
+      }
+    }
+
+    .dev-image {
+      width: 35%;
+      height: 100%;
+      border-radius: 40%;
+
+      @media @desktop1 {
+        width: 45%;
+      }
+    }
+
+      .aboutus {
+        width: 30%;
+        text-align: center;
+      }
+  }
+
+  .about-devs {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+
+    @media @desktop2 {
+      width: 95%;
+    }
+
+    @media @desktop1 {
+      flex-direction: column;
+      width: 60%;
+    }
+
+    @media @phone1 {
+      width: 80%;
+    }
+
+    @media @phone {
+      width: 80%;
+    }
+
+    .devs {
+      display: flex;
+      text-align: center;
+
+      @media @phone {
+        margin: 4px;
+      }
+    }
+
+      .dev-image {
+        width: 40%;
+        height: 100%;
+        border-radius: 40%;
+
+        @media @desktop1 {
+          padding: 10px;
+        }
+
+        @media @phone {
+          width: 45%;
+          border-radius: 30%;
+        }
+      }
+  
+        h1 {
+          font-size: 2.0rem;
+        }
+  }
+
+  .devs2 {
+    width: 60%;
+
+    @media @desktop1 {
+      margin: 0 auto;
+    }
+
+    @media @phone1 {
+      width: 80%;
+    }
+
+    @media @phone {
+      width: 80%;
+    }
+  }
+
+  
+}
